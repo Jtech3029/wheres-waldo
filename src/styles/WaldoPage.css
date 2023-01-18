@@ -1,0 +1,11 @@
+#waldo-page{
+    height: auto; 
+    width: auto; 
+}
+
+#waldo-image{
+    height: auto; 
+    width: auto; 
+    max-width: 1920px; 
+    max-height: 905px;
+}
