@@ -1,9 +1,13 @@
 import WaldoPage from "./WaldoPage";
 import "../styles/App.css"
+import { useState } from "react";
+
 function App() {
+
+  const [ hasWon, setHasWon ] = useState(false);
   return (
     <div className="App">
-      <WaldoPage/>
+      {!hasWon && <WaldoPage setHasWon={setHasWon}/>}
     </div>
   );
 }
