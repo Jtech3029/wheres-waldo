@@ -1,0 +1,9 @@
+#timer{
+    width: 100vw;
+    background-color: black;
+    color: white;
+    height: 3.2vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

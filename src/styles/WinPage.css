@@ -1,0 +1,57 @@
+.high-score-winners{
+    display: grid;
+    width: 50%;
+    grid-template-columns: repeat(3, 1fr);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
+
+#high-score{
+    display: flex;
+    flex-direction: column;
+    border: 5px, solid, white;
+}
+
+#high-score-page{
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    color: white;
+}
+
+#submit-name-page{
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 36px;
+}
+
+#win-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center ;
+}
+#username-input{
+width: 12vw;
+height: 3vh;
+}
+#win-page-submit{
+    background-color: white;
+    border: none;
+    margin-top: 2vh;
+}
+
+#play-again{
+    width: 8vw;
+    height: 3vh;
+    border-radius: 10px;
+    border: none;
+    background-color: white;
+    font-weight: bolder;
+}

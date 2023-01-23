@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import "../styles/Timer.css";
 
 export default function Timer(props) {
     const [finalTime, setFinalTime] = useState(0);
@@ -23,7 +24,7 @@ export default function Timer(props) {
         };
       });
 
-    return<div>
+    return<div id="timer">
         {minutes}:{(seconds >= 10) ? seconds : "0" + seconds}
     </div>
 }
